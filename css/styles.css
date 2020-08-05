@@ -67,9 +67,7 @@ h3 {
 }
 
 .text {
-  line-height: 2.5;
-  margin-top: -150px;
   margin-left: 40%;
   position: absolute;
-  top: 50%;
+  top: 35%;
 }
