@@ -1,0 +1,72 @@
+body {
+  background: url("../images/background.jpeg");
+  background-size: cover;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  line-height: 2;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: lighter;
+  line-height: 2;
+}
+
+.github {
+  width: 35px;
+  position: static;
+  margin: 5% auto 95% auto;
+}
+
+.linkedin {
+  width: 35px;
+  position: static;
+  margin: 15% auto 85% auto;
+}
+
+.resume {
+  width: 35px;
+  position: static;
+  margin: 25% auto 75% auto;
+}
+
+.image {
+  border: solid;
+  border-radius: 100%;
+  border-width: 10px;
+  border-color: #b89a9a;
+  margin-top: -250px;
+  margin-left: 15%;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  width: 400px;
+}
+
+.image:hover {
+  border-color: #80c7db;
+  border-style: dashed;
+  transform: scale(1.1);
+  transition: 0.75s ease;
+}
+
+.sidebar {
+  background-color: #cdb7b7;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  padding: 48px 0 0;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  line-height: 2.5;
+  margin-top: -150px;
+  margin-left: 40%;
+  position: absolute;
+  top: 50%;
+}
