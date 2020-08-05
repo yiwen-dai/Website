@@ -37,12 +37,11 @@ h3 {
   border-radius: 100%;
   border-width: 10px;
   border-color: #b89a9a;
-  margin-top: -250px;
   margin-left: 15%;
-  padding: 15px;
+  padding: 0.75%;
   position: absolute;
-  top: 50%;
-  width: 400px;
+  top: 25%;
+  width: 20%;
 }
 
 .image:hover {
